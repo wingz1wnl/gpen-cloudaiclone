@@ -19,6 +19,8 @@ _<sup>2</sup>[Department of Computing, The Hong Kong Polytechnic University](htt
 
 ## Usage
 
+Run it on Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bycloudai/GPEN-colab/blob/master/GPEN.ipynb)
+
 ![python](https://img.shields.io/badge/python-v3.7.4-green.svg?style=plastic)
 ![pytorch](https://img.shields.io/badge/pytorch-v1.7.0-green.svg?style=plastic)
 ![cuda](https://img.shields.io/badge/cuda-v10.2.89-green.svg?style=plastic)
