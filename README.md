@@ -21,30 +21,7 @@ _<sup>2</sup>[Department of Computing, The Hong Kong Polytechnic University](htt
 
 Run it on Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bycloudai/GPEN-colab/blob/master/GPEN.ipynb)
 
-![python](https://img.shields.io/badge/python-v3.7.4-green.svg?style=plastic)
-![pytorch](https://img.shields.io/badge/pytorch-v1.7.0-green.svg?style=plastic)
-![cuda](https://img.shields.io/badge/cuda-v10.2.89-green.svg?style=plastic)
-![driver](https://img.shields.io/badge/driver-v460.73.01-green.svg?style=plastic)
-![gcc](https://img.shields.io/badge/gcc-v7.5.0-green.svg?style=plastic)
-
-- Clone this repository:
-```bash
-git clone https://github.com/yangxy/GPEN.git
-cd GPEN
-```
-- Download RetinaFace model and our pre-trained model (not our best model due to commercial issues) and put them into ``weights/``.
-
-    [RetinaFace-R50](https://public-vigen-video.oss-cn-shanghai.aliyuncs.com/robin/models/RetinaFace-R50.pth) | [GPEN-512](https://public-vigen-video.oss-cn-shanghai.aliyuncs.com/robin/models/GPEN-512.pth) | [GPEN-1024-Color](https://public-vigen-video.oss-cn-shanghai.aliyuncs.com/robin/models/GPEN-1024-Color.pth)
-
-- Restore face images:
-```bash
-python face_enhancement.py
-```
-
-- Colorize aligned faces:
-```bash
-python face_colorization.py
-```
+See the original GitHub page to run it locally. (However it cannot be ran on a Windows PC)
 
 ## Main idea
 <img src="figs/architecture.png" width="784px"/> 
