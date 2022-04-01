@@ -81,7 +81,7 @@ class FaceEnhancement(object):
         
 
 if __name__=='__main__':
-    model = {'name':'GPEN-512', 'size':512}
+    model = {'name':'GPEN-BFR-512', 'size':512}
     
     indir = 'examples/imgs'
     outdir = 'examples/outs'
